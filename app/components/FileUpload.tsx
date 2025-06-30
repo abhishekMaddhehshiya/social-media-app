@@ -5,8 +5,6 @@ import { IKUploadResponse } from "imagekitio-next/dist/types/components/IKUpload
 import { useState } from "react";
 import { Loader2 } from "lucide-react";
 
-const urlEndpoint = process.env.NEXT_PUBLIC_URL_ENDPOINT!;
-const publicKey = process.env.NEXT_PUBLIC_PUBLIC_KEY!;
 
 interface FileUploadProps {
   onSuccess: (res: IKUploadResponse) => void;
